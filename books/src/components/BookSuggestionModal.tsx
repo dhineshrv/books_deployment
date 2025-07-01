@@ -40,8 +40,8 @@ const BookSuggestionModal = ({ isOpen, onClose }: BookSuggestionModalProps) => {
       // EmailJS configuration
       const templateParams = {
         from_name: formData.userName,
-        from_email: 'booksplace@gmail.com',
-        to_email: 'booksplace@gmail.com',
+        from_email: 'mahendrancool18@gmail.com',
+        to_email: 'mahendrancool18@gmail.com',
         mobile_number: formData.mobileNumber,
         book_title: formData.bookTitle,
         author_name: formData.authorName || 'Not specified',
@@ -51,10 +51,10 @@ const BookSuggestionModal = ({ isOpen, onClose }: BookSuggestionModalProps) => {
 
       // Replace these with your actual EmailJS credentials
       await emailjs.send(
-        'service_ehntzlh', // Replace with your EmailJS service ID
-        'template_ioz81v9', // Replace with your EmailJS template ID
+        'service_706wq3d', // Replace with your EmailJS service ID
+        'template_tfoi8m8', // Replace with your EmailJS template ID
         templateParams,
-        '6BQuq5_IWNu6GV4Bm' // Replace with your EmailJS public key
+        'GelPmndEvubAaL8VJ' // Replace with your EmailJS public key
       );
 
       // Store in localStorage as backup

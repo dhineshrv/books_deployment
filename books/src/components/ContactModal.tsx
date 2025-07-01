@@ -14,15 +14,15 @@ const ContactModal = ({ isOpen, onClose, item, type }: ContactModalProps) => {
   const adminContacts = [
     {
       name: "Admin",
-      phone: "7339664585",
+      phone: "7339664585,9384125235",
       email: "booksplace@gmail.com",
-      whatsapp: "https://wa.me/15551234567"
+      whatsapp: "https://wa.me/9384125235"
     },
     {
       name: "Admin 2",
       phone: "9791796867",
       email: "booksplace@gmail.com",
-      whatsapp: "https://wa.me/15559876543"
+      whatsapp: "https://wa.me/9791796867"
     }
   ];
 

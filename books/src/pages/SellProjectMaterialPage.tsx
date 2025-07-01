@@ -8,7 +8,7 @@ const SellProjectMaterialPage = () => {
   const adminContacts = [
     {
       name: "Admin",
-      phone: "7339664585",
+      phone: "9384125235",
       email: "booksplace@gmail.com",
       whatsapp: "https://wa.me/15551234567"
     },
